@@ -14,5 +14,7 @@ export class App {
   protected readonly title = signal('first-angular-app');
 
   users=DUMMY_USERS;
-  
+  onSelectUser(id:string){
+    console.log(id);
+  }
 }
